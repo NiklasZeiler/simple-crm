@@ -33,9 +33,4 @@ export class DialogAddUserComponent implements OnInit {
         console.log('Add user finished', result);
       })
   }
-
-  onNoClick(): void {
-    this.dialogRef.close();
-  }
-
 }

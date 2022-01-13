@@ -15,3 +15,23 @@ body {
 .full-width {
     width: 100%;
 }
+
+.mt-32 {
+    margin-top: 32px;
+}
+
+.dialog-container {
+    position: relative;
+
+    mat-progress-bar {
+        position: absolute;
+        left: -24px;
+        right: -24px;
+        top: -24px;
+        width: calc(100% + 48px);
+    }
+
+    .dialog-content {
+        overflow: unset;
+    }
+}
